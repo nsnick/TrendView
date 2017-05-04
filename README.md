@@ -6,13 +6,13 @@ pod 'TrendView', '~> 0.2'
 
 [Swift example](https://github.com/nsnick/trendview-example-swift)
 
-#H2 Swift 
+## Swift 
 ``` swift
 
 
 ```
 
-#H2 Objective-C
+## Objective-C
 ``` objective-c
 
 ```
