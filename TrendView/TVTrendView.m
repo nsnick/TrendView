@@ -425,9 +425,13 @@
         } else if (dataWidth > 3600 * 2/3) {//40 min
             distanceBetweenVerticalLines = 360;//ten minutes
         } else if (dataWidth > 900) {//15 minutes
-            distanceBetweenVerticalLines = 180;//five minutes
-        } else {
+            distanceBetweenVerticalLines = 300;//five minutes
+        } else if (dataWidth > 300) {//5 minutes
+            distanceBetweenVerticalLines = 120;//two minutes
+        } else if (dataWidth > 120){
             distanceBetweenVerticalLines = 60;//one minute
+        } else {
+            distanceBetweenVerticalLines = 10;//ten seconds
         }
         NSDate *sourceDate = [NSDate date];
         NSTimeZone* destinationTimeZone = [NSTimeZone systemTimeZone];

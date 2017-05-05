@@ -98,10 +98,10 @@
 		5B9B9BD21EBB8C8800B3FF20 /* TrendView */ = {
 			isa = PBXGroup;
 			children = (
-				5B9B9BEA1EBB8CA400B3FF20 /* TVPoint.h */,
-				5B9B9BEB1EBB8CA400B3FF20 /* TVPoint.m */,
 				5B9B9BEC1EBB8CA400B3FF20 /* TVTrendView.h */,
 				5B9B9BED1EBB8CA400B3FF20 /* TVTrendView.m */,
+				5B9B9BEA1EBB8CA400B3FF20 /* TVPoint.h */,
+				5B9B9BEB1EBB8CA400B3FF20 /* TVPoint.m */,
 				5B9B9BD41EBB8C8800B3FF20 /* Info.plist */,
 			);
 			path = TrendView;
@@ -525,6 +525,7 @@
 				5B9B9BE61EBB8C8800B3FF20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B9B9BE71EBB8C8800B3FF20 /* Build configuration list for PBXNativeTarget "TrendViewTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +534,7 @@
 				5B9B9BE91EBB8C8800B3FF20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
