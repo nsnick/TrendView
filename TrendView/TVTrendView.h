@@ -77,10 +77,10 @@ typedef struct TVDataRanges {
 -(NSUInteger)trendView:(TVTrendView *)trendView numberOfElementsInSeries:(long)series;
 -(id<TVPointProtocol>)trendView:(TVTrendView *)trendView pointInSeries:(long)series forIndex:(long)index;
 -(TVDataRanges)dataRangesForTrendView:(TVTrendView *)trendView;
--(BOOL)highlightPointInSeries:(NSInteger)series atIndex:(NSInteger)index;
 
 @optional
 -(UIColor *)trendView:(TVTrendView *)trendView colorForSeries:(long)series;
+-(BOOL)highlightPointInSeries:(NSInteger)series atIndex:(NSInteger)index;
 
 @end
 
