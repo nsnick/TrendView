@@ -51,8 +51,13 @@
         }
         NSLog(@"1self.style: %d", self.style);
         initialized = TRUE;
-            [self setDimensionsWithFrame:frame];
-           [self setNeedsDisplay];
+        [self setDimensionsWithFrame:frame];
+        [self setNeedsDisplay];
+        
+        CALayer *topBorder = [CALayer layer];
+        topBorder.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 3.0f);
+        topBorder.backgroundColor = [UIColor whiteColor].CGColor;
+        [self.layer addSublayer:topBorder];
     }
     return self;
 }
